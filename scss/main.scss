@@ -36,6 +36,10 @@ ul, li {
   padding: 0;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
 }

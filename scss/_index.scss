@@ -36,9 +36,10 @@
         }
       }
     }
-    .images-container {
+    .images-container {      
       display: flex;
       justify-content: center;
+      align-items: center;
       .images {
         display: flex;
         width: 70%;
