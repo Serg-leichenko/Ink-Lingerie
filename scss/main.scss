@@ -1,0 +1,47 @@
+// fonts 
+@font-face {
+  font-family: "Schnyder_X_Condensed";
+  src: local("Schnyder_X_Condensed"),
+    url("../fonts/Schnyder_X_Condensed/Schnyder_X_Cond_XL_Demi.otf") format("otf")
+}
+@font-face {
+  font-family: "TTravels";
+  src: local("TT_ravels"),
+    url("../fonts/TT_Travel/TTTravels-Regular.ttf") format("ttf"),
+    url("../fonts/TT_Travel/TTTravels-Bold.ttf") format("ttf"),
+}
+
+$Schnyder_X: "Schnyder_X_Condensed", sans-serif;
+$ttravels: "TTravels", sans-serif;
+
+//colors
+$black: #000000;
+$dark-red: #580300;
+$grey: rgba(40, 40, 40, 0.57);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  color: $black;
+  font-family: $ttravels;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.wrap {
+  padding: 0 48px;
+}
+
+@import "_index";
+@import "_media";
